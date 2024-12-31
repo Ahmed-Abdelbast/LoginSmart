@@ -28,7 +28,7 @@ var form = document.getElementById("formSubmit");
 var btnLogin =document.querySelector(".btnLogin");
 
 
-var regexName = /^[a-zA-Z]{6,12}$/
+var regexName = /^[a-zA-Z]{3,12}$/
 var regexEmail = /^[a-zA-Z0-9]{1,}(@gmail.com)$/
 var regexPass = /^(\w{8}\W{1})$/
 
